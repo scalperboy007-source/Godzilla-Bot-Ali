@@ -3,8 +3,8 @@ import requests, time, hmac, hashlib
 
 app = Flask(__name__)
 
-API_KEY = "YAHAN_APNI_API_KEY"
-API_SECRET = "YAHAN_APNA_SECRET"
+API_KEY = "mx0vgl00bxR43kEp5S"
+API_SECRET = "7432c9d2f1ca4d33a259c5e01420ae06"
 BASE = "https://contract.mexc.com"
 
 def sign(params):
